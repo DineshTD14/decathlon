@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+}
+.navbar
+{
+    display: flex;
+    gap: 50px;
+}
+.start
+{
+    height: 50px;
+    padding: 10px;
+   display: flex;gap: 15px;
+   justify-content:start;
+}
+.start a 
+{
+    font-size: larger;
+    color: blue;
+   margin-top: 10px;
+}
+.searchbar
+{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    width: 500px;
+    height: 60px;
+   
+}
+.searchbar input
+{
+    width:500px;
+    height: 40px;
+    border-radius: 20px;
+}
+.locationbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 120px;
+}
+.locationbar a
+{
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(10, 13, 218);
+}
+.iconsection
+{
+    display: flex;
+    width:470px ;
+   
+}
+.iconsection figure
+{
+  margin: 20px;
+}
+
+.imagegallery
+{
+    display: flex;
+    margin: 5px;
+}
+.imagegallery figure
+{
+  margin: 15px;
+  text-align: center;
+  padding: 1px;
+  border: 0.4px solid black;
+  
+}
+.imagegallery button
+{
+    margin: 10px;
+}
+.section
+{
+    display: flex;
+    gap: 40px;
+    text-align: justify;
+    margin: 10px;
+}
+.section img
+{
+    border-radius: 10px;
+}
+.section button
+{
+    width: 240px;
+    height: 50px;
+    font-size: larger;
+    font-weight:bold ;
+    margin-top: 20px;
+}
+.section button:hover
+{
+    background-color: rgb(52, 71, 68);
+    color: antiquewhite;
+}
+.section2
+{
+    display: flex;
+    justify-content: center;
+}
+.footer
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.leftfooter
+{
+    width: 85%;
+}
+.rightfooter
+{
+    width: 30%;
+}
+.firstrow
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(180, 9%, 80%);
+    height: 70px;
+}
+.rf1strow
+{
+    background-color:hsl(180, 9%, 80%);
+    padding: 20px;
+}
+.footersecrow
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footersecrow li
+{
+    list-style-type: none;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
