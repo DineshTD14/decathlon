@@ -132,6 +132,7 @@
 {
     background-color:hsl(180, 9%, 80%);
     padding: 20px;
+    margin-bottom: 20px;
 }
 .footersecrow
 {
@@ -144,4 +145,32 @@
     list-style-type: none;
     line-height: 1.5;
     text-transform: capitalize;
+}
+.thirdrow
+{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.rf2ndrow
+{
+   
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+.rf2ndrow a
+{
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    margin: 10px;
+    
+}
+.rf3rdrow
+{
+    margin-top: 20px;
+    text-align: center;
 }
